@@ -59,25 +59,7 @@ const People = () =>{
                 <h4>Mission Failed: We looked through out the whole galaxy and this subject was not found.</h4>
             }
         </>
-    )
-    
+    )   
 }
 
 export default People;
-
-// return (
-//     <div>
-//         { people ?
-//         <div>
-//             <h2>{people.name}</h2>
-//             <h5>Birth Year: {people.birth_year}</h5>
-//             <h5>Gender: {people.gender}</h5>
-//             <h5>Eye Color: {people.eye_color}</h5>
-//             <h5>Hair Color: {people.hair_color}</h5>
-//             <h5>Height: {people.height}</h5>
-//         </div>:
-//         <h4>Mission Failed: We looked through out the whole galaxy and this subject was not found.</h4>
-
-//     }
-//     </div>
-// )
